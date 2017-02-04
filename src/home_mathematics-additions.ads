@@ -4,6 +4,6 @@ package Home_Mathematics.Additions is
       type Index is range <>;
       type Element is digits <>;
       type Vector is array (Index) of Element;
-   function Generic_CVecN_CVecN_Addition (Left : Vector; Right : Vector) return Vector;
+   function Generic_Constrained_Vector_Vector_Addition (Left : Vector; Right : Vector) return Vector;
 
 end;
